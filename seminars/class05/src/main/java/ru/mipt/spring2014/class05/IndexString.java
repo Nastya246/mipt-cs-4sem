@@ -14,6 +14,7 @@ public class IndexString implements Comparable<IndexString>
 	{
 		this.index = index;
 		this.value = value;
+		int yi=0;
 	}
 
 	@Override

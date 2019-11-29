@@ -12,6 +12,7 @@ public class DemoClient
 {
 	public static void main (String[] args) throws IOException
 	{
+		int u=0;
 		final Socket conn = new Socket ("127.0.0.1", 9999);
 		final MessageListener msgListener = new MessageListener ()
 		{
